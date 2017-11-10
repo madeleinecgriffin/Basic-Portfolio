@@ -1,0 +1,112 @@
+body {
+	background-image: url("../images/dust_scratches.png");
+	background-repeat: repeat;
+}
+
+h1 {
+	color: #ffffff;
+
+}
+
+h2 {
+	color: #3faaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	color: #3faaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+	top: 0;
+	right: 0;
+	margin-left: 440px;
+}
+
+.nav-link {
+    display: block;
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.top-bar {
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+}
+
+.nav {
+	float: right;
+	margin-right: 240px;
+	text-align: center;
+	height: 80px;
+}
+
+.nav-link {
+	padding-top: 30px;
+}
+
+.blue-title {
+	margin-left: 80px;
+	width: 300px;
+	height: 80px;
+	background-color: #3faaa5;
+	text-align: center;
+}
+
+.name-title {
+	padding-top: 20px;
+}
+
+.about-me {
+	height: 520px;
+	width: 50%;
+	background-color: #ffffff;
+	margin-left: 80px;
+	padding: 15px 15px 15px 15px;
+	margin-top: 45px;
+	float: left;
+}
+
+.paragraph {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.connect-links {
+	float: left;
+	padding: 15px 30px 15px 30px;
+	background-color: #ffffff;
+	margin-top: 45px;
+	width: 20%;
+	margin-left: 40px;
+
+}
+
+.connect-list {
+	list-style-type: none;
+    margin: 0;
+    display: block;
+    float: left;
+
+}
+
+.nav-pic {
+    display: block;
+    float: left;
+
+}
+
+
