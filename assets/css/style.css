@@ -1,6 +1,9 @@
-body {
+body, html {
 	background-image: url("../images/dust_scratches.png");
 	background-repeat: repeat;
+	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
 }
 
 h1 {
@@ -23,92 +26,200 @@ h4 {
 
 }
 
+/*Top bar with Title and Nav (div)*/
+.top-bar {
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+/*Blue box with my name (div)*/
+.blue-title {
+	margin-left: 80px;
+	margin-top: 0;
+	width: 300px;
+	height: 80px;
+	background-color: #3faaa5;
+	text-align: center;
+	color: #ffffff;
+	float: left;
+}
+
+/*Nav bar (ul), containing all links*/
 .nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 20px 20px 20px 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: absolute;
-	top: 0;
-	right: 0;
-	margin-left: 440px;
+	margin-left: 800px;	
 	display: block;
 }
 
-.nav-link {
+/*Nav bar (li), each individual list item*/
+.nav-list {
     display: block;
     float: left;
     padding: 5px 5px 5px 5px;
+    text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: darkgray;
+	font-size: 105%;
 }
 
-.top-bar {
-	background-color: #ffffff;
-	width: 100%;
-	height: 80px;
-}
-
-.nav {
-	float: right;
-	margin-right: 240px;
-	text-align: center;
-	height: 80px;
-}
-
+/*Nav bar (a), each individual list link*/
 .nav-link {
-	padding-top: 30px;
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: darkgray;
+	font-size: 105%;
+	padding: 5px 5px 5px 5px;
 }
 
-.blue-title {
-	margin-left: 80px;
-	width: 300px;
-	height: 80px;
-	background-color: #3faaa5;
-	text-align: center;
-}
-
+/*White name text in blue box (h1)*/
 .name-title {
 	padding-top: 20px;
+	margin: 0;
 }
 
+/*gray line below nav bar (div)*/
+.grayline {
+	height: 1px;
+	width: 100%;
+	margin: 0;
+	background-color: darkgray;
+}
+
+/*Entire box (div) with about me*/
 .about-me {
-	height: 520px;
+	height: 400px;
 	width: 50%;
 	background-color: #ffffff;
 	margin-left: 80px;
-	padding: 15px 15px 15px 15px;
+	padding: 10px 20px 15px 20px;
 	margin-top: 45px;
 	float: left;
+	border-color: darkgray;
+	border-style: solid;
+	border-width: 1px;
 }
 
+/*Entire box (div) with contact me*/
+.contact-box {
+	height: 650px;
+	width: 50%;
+	background-color: #ffffff;
+	margin-left: 80px;
+	padding: 8px 20px 15px 20px;
+	margin-top: 45px;
+	float: left;
+	border-color: darkgray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*Entire box (div) with gallery me*/
+.gallery-me {
+	height: 750px;
+	width: 50%;
+	background-color: #ffffff;
+	margin-left: 80px;
+	padding: 10px 20px 15px 20px;
+	margin-top: 45px;
+	float: left;
+	border-color: darkgray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*pic of me (img)*/
+.mepic {
+	float: left;
+	margin-right: 15px;
+}
+
+/*paragraph about me (p)*/
 .paragraph {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/*text on form (p)*/
+.paragraph2 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Box (div) containing connect links from images*/
 .connect-links {
 	float: left;
-	padding: 15px 30px 15px 30px;
+	padding: 15px 15px 15px 15px;
 	background-color: #ffffff;
 	margin-top: 45px;
 	width: 20%;
+	height: 175px;
 	margin-left: 40px;
 	margin-bottom: 40px;
+	border-color: darkgray;
+	border-style: solid;
+	border-width: 1px;
 
 }
 
+/*list (ul) of connect link images*/
 .connect-list {
 	list-style-type: none;
     margin: 0;
+    padding: 5px 5px 5px 5px;
     display: block;
-    float: left;
-
 }
 
+/*indivdual image links (li) for connect with me*/
 .nav-pic {
     display: block;
     float: left;
-
+    margin: 0;
+    padding: 0;
 }
 
+/*name input form (input)*/
+.name-input {
+	width: 50%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*email input form (input)*/
+.email-input {
+	width: 50%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*message input form (input)*/
+.message-input {
+	width: 100%;
+	height: 300px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*submit input button (input)*/
+.submit-input {
+	padding: 2px 5px 2px 5px;
+	color: #ffffff;
+	background-color: #3faaa5;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+}
+
+/*gallery images (img)*/
+.gallery {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 200px;
+	width: 300px;
+}
+
+/*green line at bottom of screen (div)*/
 .greenline {
 	margin-top: 40px;
 	width: 100%;
@@ -117,9 +228,11 @@ h4 {
 	float: left;
 }
 
+/*copyright image at bottom of screen (div)*/
 .copyright {
 	width: 100%;
 	height: 90px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #666666;
 	color: #ffffff;
 	text-align: center;
