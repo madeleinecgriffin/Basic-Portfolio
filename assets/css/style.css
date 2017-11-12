@@ -93,7 +93,7 @@ h4 {
 
 /*Entire box (div) with about me*/
 .about-me {
-	height: 400px;
+	height: 300px;
 	width: 50%;
 	background-color: #ffffff;
 	margin-left: 80px;
@@ -184,19 +184,23 @@ h4 {
 /*name input form (input)*/
 .name-input {
 	width: 50%;
+	font-size: 12px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /*email input form (input)*/
 .email-input {
 	width: 50%;
+	font-size: 12px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /*message input form (input)*/
 .message-input {
-	width: 100%;
+	width: 75%;
 	height: 300px;
+	size: 500;
+	font-size: 12px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
